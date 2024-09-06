@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBuddy</title>
+    <link rel="stylesheet" href="gbuddy.css">
+</head>
+<body>
+    <div class="bg">
+        <header>
+            <div class="navbar">
+                <div class="nav-logo">
+                    <div class="logo"></div>
+                </div>
+            </div>
+        </header>
+        <div class="box">
+            <div class="cont-1">
+                <div class="some-text">
+                    <p>Chat with Gbuddy, your AI companion at Galgotias,<br> where every question finds a friend.</p>
+                </div>
+                <div class="my-robo">
+                    <img src="https://res.cloudinary.com/dkzkhb97n/image/upload/v1723176047/x3dwozheirwgt2hvjo9z.png" alt="Robot Image">
+                </div>
+            </div>
+            <div class="cont-2">
+                <!-- Uncomment this section if needed
+                <div class="image">
+                    <div class="robo">
+                        <span class="chatbot-text">Ask me</span>
+                        <a href="#">
+                            <img src="https://res.cloudinary.com/dkzkhb97n/image/upload/v1723179381/ogwk4vj0flq1qifai57d.png" alt="Chatbot">
+                        </a>
+                    </div>
+                </div> 
+                -->
+            </div>
+        </div>
+    </div>
+    
+    <div class="bg2">
+        <footer>
+            <div class="foot-panel1">
+                <a href="https://drive.google.com/file/d/1IAWZn43fAiMXF2l9k6BzTbe-xpNpDiTZ/view?usp=sharing" class="no-underline" target="_main">Get to know Us</a>
+            </div>
+            <div class="foot-panel2">
+                <p>Powered By AIML Divison</p>
+            </div>
+            <div class="foot-panel3">
+                <div class="logo"></div>
+            </div>
+        </footer>
+    </div>
+    <div id="voiceflow-container">
+        <script type="text/javascript">
+            (function(d, t) {
+                var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                v.onload = function() {
+                  window.voiceflow.chat.load({
+                    verify: { projectID: '66a972ce6b56308fbf96dcc1' },
+                    url: 'https://general-runtime.voiceflow.com',
+                    versionID: 'production'
+                  });
+                }
+                v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+            })(document, 'script');
+        </script>
+    </div>
+    
+    
+</body>
+</html>
